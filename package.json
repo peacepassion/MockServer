@@ -2,13 +2,13 @@
   "name": "mock_server",
   "version": "1.0.0",
   "description": "Mock API for app dev",
-  "main": "index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
+  "bin": "./bin/index.js",
+  "main": "./src/server/index.js",
   "author": "qi.da",
   "license": "ISC",
   "dependencies": {
-    "express": "^4.13.3"
+    "express": "^4.13.3",
+    "morgan": "^1.6.1",
+    "yargs": "^3.31.0"
   }
 }
